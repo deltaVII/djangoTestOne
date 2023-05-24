@@ -1,0 +1,40 @@
+
+{% extends "myapp/index.html" %}
+{% load static %}
+{% block content %}
+
+<form action="/form" method="post" id="form">
+    {% csrf_token %}
+    <label for="company_name">Your name: </label>
+    <input id="company_name" type="text" name="company_name" value="{{ company_name }}" required>
+    <label for="company_index">Your index: </label>
+    <input id="company_index" type="number" name="company_index" value="{{ company_index }}" required>
+    <label for="company_index">Your post: </label>
+    <input id="company_post" type="text" name="company_post" value="{{ company_post }}" height="400px" required>
+    <input type="submit" value="Submit" id="button">
+</form>
+<style>
+    form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+</style>
+<!--
+<script>
+
+    let form = document.getElementById('form');
+    let but = document.getElementById('button');
+    function Proverka() {
+        if (document.getElementById('empt').value == '' || document.getElementById('age').value == '' || document.getElementById('name').value == '') {
+            alert('Ты это, того самого. Форму не заполнил...')
+    }
+        else{
+            form.submit();
+        }
+    }
+    console.log(form)
+    but.addEventListener("click", () => {Proverka()})
+</script>
+-->
+{% endblock %}

@@ -1,0 +1,123 @@
+	
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ShavalievGroup</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href= "{% static "main.css" %}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <style></style>
+        <div id="root">
+            <header id="header">
+                <img id="logo" class="header" src="{% static "image/Vectorlogo.svg" %}">
+                <div>
+                <a class="headerText header" href="">Главная</a>
+                <a class="headerText header" href="">Услуги</a>
+                <a class="headerText header" href="">О компании</a>
+                <a class="headerText header" href="">Новости</a>
+                <a class="headerText header" href="">Контакты</a>
+                <a class="headerText header" href="">Обратная связь</a>
+                </div>
+                <div id="headerSearch" class="header">
+                    <img src="{% static "image/VectorSearch.png" %}">
+                    <input id="headerSearchInput" type="search">
+                </div>
+                <div id="headerLang" class="header">
+                    <p>RU</p>
+                    <img id="headerLangRU" src="{% static "image/Vectorstr11.png" %}">
+                    <div id="headerLangDrop"><p>ENG<p></div>
+                </div>
+            </header>
+
+
+
+            <main id="main">
+
+                {% block content %}
+	            {% endblock %}
+
+            <footer>
+                <div id="footerOne">
+                    <div id="qq">
+                        <img src="{% static "image/Vectorhui1.png" %}">
+                        <p>123456, г. Тавима, ул. Морская, д. 21</p>
+                    </div>
+                    <div>
+                        <img src="{% static "image/VectorlogoIDInahui.png" %}">
+                    </div>
+                    <div id="pp">
+                        <img src="{% static "image/Vector3iZAEBALSA.png" %}">
+                        <p>+7 (123) 456-67-89</p>
+                        <img src="{% static "image/Vector4iOCHENSOLNOZAEBALSA.png" %}">
+                        <p>order@visma.ru</p>
+                    </div>
+                </div>
+                <div id="footerTwo">
+                    <div>
+                        <p>информация о юр. лице</p>
+                        <ul>
+                            <li>ОГРН 11111111111111111</li>
+                            <li>ИНН 2222222222222</li>
+                            <li>КПП 3333333333333</li>
+                            <li>ОКПО 44444444444 ОКВЭД 52.24</li>
+                            <li>ОКТМО 5555555555555</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>закупки</p>
+                        <ul>
+                            <li>Нормативные документы</li>
+                            <li>Закупки на VISMA Order</li>
+                            <li>Закупки на VISMA Tender</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>акционерам</p>
+                        <ul>
+                            <li>Устав VISMA</li>
+                            <li>Свидетельства госрегистрации</li>
+                            <li>Список аффилированных лиц</li>
+                            <li>Информация</li>
+                            <li>Отчеты</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>о компании</p>
+                        <ul>
+                            <li>Порт сегодня</li>
+                            <li>Характеристики порта</li>
+                            <li>История</li>
+                            <li>Дипломы и награды</li>
+                            <li>Транспортная безопасность</li>
+                            <li>Экология</li>
+                            <li>Правовая информация</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <a href="http://127.0.0.1:8000/man" class="as">0</a>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

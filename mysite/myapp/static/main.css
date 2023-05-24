@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+}
+#form form {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form input {
+    margin: 10px;
+}
+#company_post {
+    height: 400px;
+}
+
+#root {
+    width: 1920px;
+}
+
+.as {
+    font-size: 50px;
+}
+
+#main {
+    display: block;
+}
+#header {
+    background-color: #ffffff;
+    height: 110px;
+    width: 1880px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header {
+    margin: 25px 10px 5px 10px;
+}
+
+.headerText {
+    text-decoration: none;
+    color: black;
+}
+
+#headerSearchInput {
+    position: relative;
+    top: -5px;
+}
+
+#headerLangRU {
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+
+#headerLangDrop {
+    display: none;
+}
+
+#headerLang:hover #headerLangDrop {
+    display: block;
+}
+
+#headerLang {
+    width: 50px;
+}
+
+#logo {
+    width: 108px;
+}
+
+
+#mainOne {
+    width: 100vw;
+    height: 750px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(image/Rectangle\ 23mainOne.png);
+    color: white;
+
+}
+
+#mainOneText {
+    width: 500px;
+    height: 500px;
+    padding: 200px 0 0 200px;
+}
+
+#mainOneText1 {
+    margin-bottom: 40px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+}
+
+#mainOneText2 {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+#mainOneText3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#mainOneText4 {
+    position: relative;
+    bottom: 30px;
+    left: 170px;
+}
+
+#mainOneText5 {
+    position: relative;
+    bottom: 41px;
+    left: 146px;
+}
+
+#mainOneImage {
+
+    bottom: 600px;
+    left: 900px;
+    width: 900px;
+}
+
+#mainOneImage1 {
+    background-color: rgb(59, 194, 194);
+    width: 300px; 
+    border-radius: 20px;
+    float: left;
+    margin: 10px;
+}
+
+
+.mainOneImageB {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 140%;
+    padding: 20px 0 100px 20px;
+}
+.mainOneImageM {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    padding: 0px 0 14px 20px;
+}
+
+
+#mainTwoImage {
+    width: 900px;
+    height: 600px;
+
+    margin-right: 00px;
+    margin-top: 50px;
+    color: white;
+}
+
+#mainTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#mainTwoImage1 {
+    margin: 10px;
+    width: 350px;
+    height: 180px;
+    float: left;
+    background-color: rgb(100, 29, 167);
+    border-radius: 20px;
+}
+
+#mainTwoImageTextV {
+    margin: 25px 0 0 25px;
+}
+#mainTwoImageTextN {
+    margin: 80px 0 0 25px;
+    font-weight: 600;
+}
+
+#mainTwoText {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#mainTwoText p, #mainTwoText img{
+    float: left;
+}
+
+#mainTwoText a p {
+    width: 200px;
+    clear: left;
+} 
+
+#mainTwoText div{
+    height: 10px;    
+}
+
+#mainThree {
+    background: #eeedf3;
+    height: 876px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    justify-content: center;
+}
+
+#mainThreeText {
+    width: 700px;
+    padding-top: 80px;
+    padding-left: 200px;
+    float: left;
+}
+
+#mainThreeText div {
+    margin-top: 60px;
+}
+
+#mainThreeText p, #mainThreeText li {
+    margin-top: 30px;
+}
+
+#mainThreeImage {
+    width: 820px;
+    margin: 100px 0 0 200px;
+}
+
+#mainThreeImage div {
+    background-color: #5DB7DE;
+    height: 170px;
+    width: 456px;
+    border-radius: 20px;
+    padding: 30px 35px 30px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+#mainThreeImage div span, #mainTwoImageTextN {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    color: #ffffff;
+}
+#mainThreeImage div p, #mainTwoImageTextV {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 140%;
+    color: #ffffff;
+}
+
+#mainThreeImage2 {
+    width: 66px;
+    position: relative;
+    top: -142px;
+    left: -300px;
+}
+
+#mainThreeImage1 {
+    width: 526px;
+}
+
+#footerOne {
+    width: 100%;
+    height: 120px;
+    background-color: #3D348B;
+    opacity: 0.85;
+    color: #ffffff;
+}
+
+#footerTwo {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #ffffff;
+    height: 434px;
+    width: 1820px;
+    border-radius: 0px;
+    background: #3D348B;
+    padding: 50px 50px 0 50px;
+}
+
+#footerTwo ul {
+    list-style-type: none;
+
+}
+
+#mainThree h1 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+}
+
+#footerTwo p {
+    margin-bottom: 30px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+#footerTwo li {
+    margin-top: 15px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+#footerOne {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#qq p, #pp p, #qq img, #pp img{
+    float: left;
+    margin: 0 5px 0 5px;
+}

@@ -1,0 +1,35 @@
+{% extends "myapp/index.html" %}
+{% load static %}
+{% block content %}
+<div id="mainOne">
+    <div id="mainOneText">
+        <p id="mainOneText1">Тавимский морской порт VISMA</p>
+        <p id="mainOneText2">Vel posuere nibh odio placerat massa vel tellus tortor. Varius eget nunc scelerisque etiam felis facilisi ante viverra sem. Nunc eros elementum.</p>
+        <p id="mainOneText3">О компании</p>
+        <img id="mainOneText4" src="{% static "image/Ellipse 1mainOneText.png" %}"></img>
+        <img id="mainOneText5" src="{% static "image/Vectordeqyz.png" %}"></img>
+    </div>
+    <div id="mainOneImage">
+        <div id="mainOneImage1">
+            <p class="mainOneImageB">Услуги</p>
+            <p class="mainOneImageM">Погрузочно-разгрузочная</p>
+            <p class="mainOneImageM">деятельность</p>
+        </div>
+        <div id="mainOneImage1">
+            <p class="mainOneImageB">Услуги</p>
+            <p class="mainOneImageM">Хранение</p>
+            <p class="mainOneImageM">грузов</p>
+        </div>
+        <div id="mainOneImage1">
+            <p class="mainOneImageB">Услуги</p>
+            <p class="mainOneImageM">Складские</p>
+            <p class="mainOneImageM">операции</p>
+        </div>
+        <div id="mainOneImage1">
+            <p class="mainOneImageB">Услуги</p>
+            <p class="mainOneImageM">Швартовые</p>
+            <p class="mainOneImageM">операции</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
